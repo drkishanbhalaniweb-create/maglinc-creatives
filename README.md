@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Maglinc Creatives
 
-## Getting Started
+A modern, high-performance creative agency website built with Next.js 16, Framer Motion, and Tailwind CSS.
 
-First, run the development server:
+## 🚀 Quick Start
+
+### Development
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the site.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Production Build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm start
+```
 
-## Learn More
+## 📦 Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **Framework**: Next.js 16 (App Router)
+- **Styling**: Tailwind CSS 4
+- **Animations**: Framer Motion 12
+- **Language**: TypeScript
+- **Deployment**: Vercel
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🌐 Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This project is optimized for deployment on Vercel.
 
-## Deploy on Vercel
+### Deploy to Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Push your code to GitHub
+2. Import your repository on [Vercel](https://vercel.com)
+3. Vercel will automatically detect Next.js and configure settings
+4. Click "Deploy"
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Vercel Settings (Auto-configured)
+
+- **Framework Preset**: Next.js
+- **Build Command**: `npm run build`
+- **Output Directory**: `.next`
+- **Install Command**: `npm install`
+- **Development Command**: `npm run dev`
+
+## 🎨 Features
+
+- Scroll-based animations with Framer Motion
+- Custom magnetic cursor
+- Text scramble effects
+- Responsive design
+- Optimized performance
+- SEO-friendly
+
+## 📁 Project Structure
+
+```
+maglinc-creatives/
+├── app/                  # Next.js App Router pages
+├── components/           # React components
+│   ├── sections/        # Page sections
+│   └── ui/              # Reusable UI components
+├── scenes/              # Scroll-based scene components
+├── lib/                 # Utility functions
+└── public/              # Static assets
+```
+
+## 🔧 Environment Variables
+
+No environment variables required for basic deployment.
+
+## 📝 License
+
+© 2022 Maglinc Studio
